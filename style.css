@@ -37,7 +37,8 @@ nav ul li a {
 }
 
 #logo img {
-  width: 200px;
+  width: 400px;  /* Aumenta a largura da imagem */
+  height: auto;  /* Mantém a proporção da imagem */
 }
 
 #produtos {
