@@ -25,9 +25,12 @@ function finalizarCompra() {
 }
 
 function pagarPix() {
-  alert("Pagamento via PIX realizado com sucesso!");
+  // Redirecionando o usuário para a interface de pagamento PIX (supondo que você tenha uma API backend para gerar o QR code)
+  // Aqui, podemos simular o redirecionamento para um aplicativo de PIX.
+  window.location.href = "https://www.bcb.gov.br/estabilidadefinanceira/pix";  // Exemplo de link do Banco Central para explicações sobre PIX, mas no real você geraria um link de pagamento.
 }
 
 function pagarMercadoPago() {
-  alert("Redirecionando para o Mercado Pago...");
+  // Aqui você irá gerar um pagamento real via Mercado Pago, ou você pode redirecionar para a interface do Mercado Pago.
+  window.location.href = "https://www.mercadopago.com.br/"; // Este é o link do Mercado Pago. Na integração real, você geraria um link de pagamento específico.
 }
