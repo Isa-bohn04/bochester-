@@ -42,13 +42,13 @@ nav ul li a {
 }
 
 #produtos {
+  text-align: center;
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 }
 
 .produto {
-  text-align: center;
   background-color: #333;
   padding: 20px;
   border-radius: 5px;
