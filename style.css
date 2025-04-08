@@ -18,17 +18,22 @@ header {
   padding: 40px; /* Espaçamento interno do cabeçalho */
 }
 
+.social-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
 .social-icon {
   width: 32px;
   height: 32px;
-  margin-left: 10px;
+  object-fit: contain;
   transition: transform 0.2s ease;
 }
 
 .social-icon:hover {
   transform: scale(1.1);
 }
-
 
 /* Lista de navegação horizontal */
 nav ul {
