@@ -60,7 +60,7 @@ nav ul li a {
   display: flex;    /* Layout em linha dos produtos */
   justify-content: center; /* Centraliza os produtos no meio */
   flex-wrap: wrap;      /* Permite quebra de linha caso falte espaço */
-  gap: 20px;            /* Espaço entre os produtos */
+  gap: 40px;            /* Espaço entre os produtos */
   margin: 20px 0;        /* Espaço acima e abaixo */
 }
 
@@ -70,7 +70,7 @@ nav ul li a {
   padding: 20px;            /* Espaço interno */
   border-radius: 5px;      /* Bordas arredondadas */
   text-align: center;       /* Centraliza conteúdo dentro do card */
-  width: 200px;              /* Largura fixa (pode ajustar conforme necessidade) */
+  width: 200px;              /* Largura fixa  */
 }
 
 /* Imagem do produto com tamanho fixo */
