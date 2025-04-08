@@ -18,6 +18,18 @@ header {
   padding: 40px; /* Espaçamento interno do cabeçalho */
 }
 
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+
 /* Lista de navegação horizontal */
 nav ul {
   list-style: none; /* Remove os marcadores (bolinhas) da lista */
