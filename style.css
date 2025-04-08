@@ -27,10 +27,10 @@ header {
 .social-icon {
   width: 32px;
   height: 32px;
-  display: block;              /* Elimina espaçamento indesejado de inline elements */
-  object-fit: contain;         /* Garante que o conteúdo se encaixe na área sem distorcer */
-  margin-left: 10px;
+  object-fit: contain;
+  filter: invert(1); /* Deixa o SVG branco */
   transition: transform 0.2s ease;
+  margin-left: 10px;
 }
 
 .social-icon:hover {
