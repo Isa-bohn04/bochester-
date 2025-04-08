@@ -41,7 +41,7 @@ nav ul li a {
   height: auto;  /* Mantém a proporção da imagem */
 }
 
-#produto {
+#produto h2 {
   text-align: center;
   display: flex;
   justify-content: space-around;
