@@ -41,7 +41,7 @@ nav ul li a {
   height: auto;  /* Mantém a proporção da imagem */
 }
 
-#produtos {
+#produto {
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -73,20 +73,4 @@ button:hover {
   background-color: #b71c1c;
 }
 
-#carrinho {
-  padding: 20px;
-  background-color: #333;
-  margin: 20px 0;
-}
-
-#pagamento {
-  padding: 20px;
-  text-align: center;
-}
-
-#contato {
-  padding: 20px;
-  background-color: #333;
-  text-align: center;
-}
 
